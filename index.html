@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel ="stylesheet"  href ="style.css">
+</head>
+<body>
+      <nav>
+        <ul>
+            <li class="brand"><img src ="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About </li>
+        
+        </ul>
+      </nav>
+
+      <div class="container">
+       <div class="songItemcontainer">
+        <div class="songList">
+            <h1>My playlist - neha shinde</h1>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="0" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+
+            <!-- 2 -->
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="1" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+
+
+            <!-- 3 -->
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="2" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+
+            <!-- 4 -->
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="3" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+
+            <!-- 5 -->
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="4" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+
+            
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="5" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Let me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:34   <i id="6" class="fa songItemPlay
+                  -regular fa-circle-play  "></i></span>
+              </span>
+            </div>
+         
+        </div>
+    </div>
+        <div class="songBanner"></div>  
+    </div>
+
+
+    <div class="bottom">
+        <input type="range" name = "range"  id ="myProgressBar"  value = "0" min ="0" max="100">
+  
+     <div class="icons">
+       
+        <i class="fa-solid fa-step-backward fa-2x " id="previous"></i>
+     <i  class="fa songItemPlay-regular fa-circle-play fa-2x" id ="masterPlay" ></i>
+        <i class="fa-solid fa-step-forward fa-2x" id="next"></i>
+      
+     </div>
+     <div class="songInfo">
+        <img src="playing.gif" width=" 42px" alt="" id="gif"><span id="mastersong">tum sea milne ka</span>
+     </div>
+  
+    </div>
+
+
+      <script src="script.js"></script>
+</body>
+</html>
